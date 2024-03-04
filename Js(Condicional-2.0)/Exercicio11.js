@@ -20,19 +20,19 @@ function resultado(num){
         let D = indice_num(1)
         let U = indice_num(2)
         print(`
-            NUMERO ESCOLHIDO: ${num} = ${C} CENTENAS,${D} DEZENAS, ${U} UNIDADES 
+            NUMERO ESCOLHIDO: ${num} = ${C} CENTENAS,${D} DEZENAS E ${U} UNIDADES 
         `)
     }
     if(num <100){
         let D = indice_num(0)
         let U = indice_num(1)
         print(`
-        NUMERO ESCOLHIDO: ${num} =${D} DEZENAS, ${U} UNIDADES 
+        NUMERO ESCOLHIDO: ${num} =${D} DEZENAS E ${U} UNIDADES 
     `)
     }
     if(num < 10){
         print(`
-        NUMERO ESCOLHIDO: ${num} =, POSSUI APENAS UNIDADES 
+        NUMERO ESCOLHIDO: ${num} = POSSUI APENAS UNIDADES 
     `)    }
 }
 main()
